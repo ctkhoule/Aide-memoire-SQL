@@ -20,6 +20,13 @@ Une base de données relationnelle est une base de données divisée en unités 
 
 Les tables sont liées les unes aux autres via des __clés__ ou des __champs communs__ dans un système de base de données relationnelle, c'est pourquoi même si les données souhaitées peuvent exister dans plusieurs tables, vous pouvez facilement __joindre plusieurs tables__ pour obtenir un ensemble de données combiné à l'aide d'une seule requête.
 
+## Quelques SGBDR
+- [MySQL](https://www.mysql.com)
+- [MariaDB](https://mariadb.org)
+- [Oracle](https://www.oracle.com/database/technologies)
+- [PostgreSQL](https://www.postgresql.org)
+- [Microsoft SQL Server](https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads)
+
 
 ## Licence
 Le projet est sous licence MIT - voir le fichier [LICENCE](https://github.com/ctkhoule/Aide-memoire-SQL/blob/main/LICENSE) pour plus de détails.
