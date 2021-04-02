@@ -15,6 +15,11 @@ Il y a beaucoup plus de choses que vous pouvez faire avec SQL :
 - Vous pouvez créer des vues pour éviter de saisir des requêtes complexes fréquemment utilisées.
 - etc.
 
+## Une base de données relationnelle
+Une base de données relationnelle est une base de données divisée en unités logiques appelées __tables__, où les tables sont liées les unes aux autres au sein de la base de données. La base de données relationnelle permet de diviser les données en unités logiques, plus petites et gérables pour une maintenance plus facile et de meilleures performances.
+
+Les tables sont liées les unes aux autres via des __clés__ ou des __champs communs__ dans un système de base de données relationnelle, c'est pourquoi même si les données souhaitées peuvent exister dans plusieurs tables, vous pouvez facilement __joindre plusieurs tables__ pour obtenir un ensemble de données combiné à l'aide d'une seule requête.
+
 
 ## Licence
 Le projet est sous licence MIT - voir le fichier [LICENCE](https://github.com/ctkhoule/Aide-memoire-SQL/blob/main/LICENSE) pour plus de détails.
