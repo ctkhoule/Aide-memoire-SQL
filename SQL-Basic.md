@@ -39,3 +39,17 @@ Tapez la commande suivante (`USE nom_base`) et appuyez sur Entrée. Vous verrez 
     USE mybase;
 
 __Conseil : Pour afficher l'ensemble des bases de données existantes sur le serveurm vous pouvew exécuter l'instruction `SHOW DATABASES` sur la ligne de commande.__
+
+## Les commentaires SQL
+Un commentaire est simplement un texte ignoré par le moteur de base de données. Les commentaires peuvent être utilisés pour fournir une indication rapide sur l'instruction SQL.
+
+SQL prend en charge les commentaires sur une seule ligne et sur plusieurs lignes. Pour écrire un commentaire sur une seule ligne, commencez la ligne par deux tirets consécutifs (`--`). Par exemple :
+
+    -- Créer une base de donnée
+    CREATE DATABASE nom_base;
+
+Cependant, pour écrire des commentaires sur plusieurs lignes, commencez le commentaire par une barre oblique suivie d'un astérisque (`/*`) et terminez le commentaire par un astérisque suivi d'une barre oblique (`*/`), comme ceci :
+
+    /* Créer une base de donnée
+     avec la commande suivante */
+    CREATE DATABASE nom_base;
