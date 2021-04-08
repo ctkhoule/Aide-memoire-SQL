@@ -30,7 +30,7 @@ Les tables sont liées les unes aux autres via des __clés__ ou des __champs com
 ## Utiliser Web SQL Database
 SQL est utilisé pour communiquer avec la base de données, donc avant de commencer à expérimenter avec SQL, vous devez d'abord accéder à un système de base de données.
 
-Vous pouvez tester ou exécuter la plupart des instructions SQL fournies à titre d'exemples tout au long des didacticiels, à l'aide cet [éditeur SQL en ligne](https://www.tutorialrepublic.com/codelab.php?topic=sql&file=select-all). Cet éditeur SQL utilise __Web SQL Database__ pour stocker et accéder aux données côté client. Cependant, pour exécuter une instruction SQL, vous aurez besoin d'accéder à un système de gestion de base de données à part entière comme MySQL, SQL Server, etc.
+Vous pouvez tester ou exécuter la plupart des instructions SQL fournies à titre d'exemples tout au long des didacticiels, à l'aide de cet [éditeur SQL en ligne](https://www.tutorialrepublic.com/codelab.php?topic=sql&file=select-all). Cet éditeur SQL utilise __Web SQL Database__ pour stocker et accéder aux données côté client. Cependant, pour exécuter une instruction SQL, vous aurez besoin d'accéder à un système de gestion de base de données à part entière comme MySQL, SQL Server, etc.
 
 __Web SQL Database__ vous permet de créer des bases de données SQL et d'effectuer des appels SQL côté client. Il est basé sur le moteur [SQLite](https://sqlite.org/index.html) populaire et __open source__. Web SQL est pris en charge par les navigateurs __Chrome, Opera et Safari__.
 
